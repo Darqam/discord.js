@@ -53,6 +53,7 @@ class MessageReaction {
      */
     // eslint-disable-next-line eqeqeq
     if (this.count == undefined) this.count = data.count;
+    this.me = data.me;
   }
 
   /**
